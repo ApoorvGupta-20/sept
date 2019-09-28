@@ -13,7 +13,7 @@ int dist[10][10] = {
 		{42,30,0,10},
 		{25,34,10,0}
 };
-int subarray(int dist[][], int a, int b, int c, int d)
+int subarray(int dist[10][10], int a, int b, int c, int d)
 {
     int s[4][4] = {
                     {dist[a][a], dist[a][b], dist[a][c], dist[a][d]},
